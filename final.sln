@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "final", "final\final.vcxproj", "{49AF3D93-CCFA-4EB9-946B-3E9523058B09}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "controlsegway", "controlsegway\controlsegway.vcxproj", "{56FB7395-3B81-4F7B-B2BD-AD8D2ADBBD2E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{49AF3D93-CCFA-4EB9-946B-3E9523058B09}.Debug|Win32.ActiveCfg = Debug|Win32
+		{49AF3D93-CCFA-4EB9-946B-3E9523058B09}.Debug|Win32.Build.0 = Debug|Win32
+		{49AF3D93-CCFA-4EB9-946B-3E9523058B09}.Release|Win32.ActiveCfg = Release|Win32
+		{49AF3D93-CCFA-4EB9-946B-3E9523058B09}.Release|Win32.Build.0 = Release|Win32
+		{56FB7395-3B81-4F7B-B2BD-AD8D2ADBBD2E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{56FB7395-3B81-4F7B-B2BD-AD8D2ADBBD2E}.Debug|Win32.Build.0 = Debug|Win32
+		{56FB7395-3B81-4F7B-B2BD-AD8D2ADBBD2E}.Release|Win32.ActiveCfg = Release|Win32
+		{56FB7395-3B81-4F7B-B2BD-AD8D2ADBBD2E}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

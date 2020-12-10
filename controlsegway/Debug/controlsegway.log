@@ -1,0 +1,43 @@
+﻿Build started 2018-11-05 오후 12:04:28.
+     1>Project "C:\Users\ksj\Documents\Visual Studio 2013\Projects\final\controlsegway\controlsegway.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\SimLab\RoboticsLab\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D CONTROLSEGWAY_EXPORTS /D R_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt controlsegway.cpp
+         controlsegway.cpp
+     1>c:\program files (x86)\simlab\roboticslab\include\rcommon\rpluginproperties.h(50): warning C4251: 'rPluginProperties::_properties' : class 'std::list<rPluginProperties::sProperty,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'rPluginProperties'
+                 with
+                 [
+                     _Ty=rPluginProperties::sProperty
+                 ]
+     1>c:\program files (x86)\simlab\roboticslab\include\rcontrolalgorithm\rcontrolalgorithm.h(691): warning C4251: 'rControlAlgorithm::_rdc' : class 'rDC' needs to have dll-interface to be used by clients of class 'rControlAlgorithm'
+                 c:\program files (x86)\simlab\roboticslab\include\rtype.h(470) : see declaration of 'rDC'
+     1>c:\program files (x86)\simlab\roboticslab\include\rcontrolalgorithm\rcontrolalgorithm.h(685): warning C4996: 'wcsncpy': This function or variable may be unsafe. Consider using wcsncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\wchar.h(1073) : see declaration of 'wcsncpy'
+     1>c:\users\ksj\documents\visual studio 2013\projects\final\controlsegway\controlsegway.cpp(58): warning C4305: '=' : truncation from 'double' to 'float'
+     1>c:\users\ksj\documents\visual studio 2013\projects\final\controlsegway\controlsegway.cpp(61): warning C4305: '=' : truncation from 'double' to 'float'
+     1>c:\users\ksj\documents\visual studio 2013\projects\final\controlsegway\controlsegway.cpp(94): warning C4305: '=' : truncation from 'double' to 'float'
+     1>c:\users\ksj\documents\visual studio 2013\projects\final\controlsegway\controlsegway.cpp(102): warning C4305: '=' : truncation from 'double' to 'float'
+     1>c:\users\ksj\documents\visual studio 2013\projects\final\controlsegway\controlsegway.cpp(201): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ksj\documents\visual studio 2013\projects\final\controlsegway\controlsegway.cpp(210): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ksj\documents\visual studio 2013\projects\final\controlsegway\controlsegway.cpp(211): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ksj\documents\visual studio 2013\projects\final\controlsegway\controlsegway.cpp(217): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ksj\documents\visual studio 2013\projects\final\controlsegway\controlsegway.cpp(218): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ksj\documents\visual studio 2013\projects\final\controlsegway\controlsegway.cpp(233): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ksj\documents\visual studio 2013\projects\final\controlsegway\controlsegway.cpp(234): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ksj\documents\visual studio 2013\projects\final\controlsegway\controlsegway.cpp(240): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ksj\documents\visual studio 2013\projects\final\controlsegway\controlsegway.cpp(241): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ksj\documents\visual studio 2013\projects\final\controlsegway\controlsegway.cpp(318): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ksj\documents\visual studio 2013\projects\final\controlsegway\controlsegway.cpp(319): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ksj\documents\visual studio 2013\projects\final\controlsegway\controlsegway.cpp(358): warning C4305: '+=' : truncation from 'double' to 'float'
+     1>c:\users\ksj\documents\visual studio 2013\projects\final\controlsegway\controlsegway.cpp(364): warning C4305: '-=' : truncation from 'double' to 'float'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\ksj\Documents\Visual Studio 2013\Projects\final\Debug\controlsegway.dll" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files (x86)\SimLab\RoboticsLab\lib" rMath_12d.lib rxControlSDK_12d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\ksj\Documents\Visual Studio 2013\Projects\final\Debug\controlsegway.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\ksj\Documents\Visual Studio 2013\Projects\final\Debug\controlsegway.lib" /MACHINE:X86 /DLL Debug\controlsegway.obj
+         controlsegway.vcxproj -> C:\Users\ksj\Documents\Visual Studio 2013\Projects\final\Debug\controlsegway.dll
+       PostBuildEvent:
+         copy "C:\Users\ksj\Documents\Visual Studio 2013\Projects\final\Debug\controlsegway.dll" "C:\Program Files (x86)\SimLab\RoboticsLab\bin\controls\controlsegway.dll"
+         :VCEnd
+                 1개 파일이 복사되었습니다.
+     1>Done Building Project "C:\Users\ksj\Documents\Visual Studio 2013\Projects\final\controlsegway\controlsegway.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.44
